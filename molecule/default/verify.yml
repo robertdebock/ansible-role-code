@@ -1,0 +1,10 @@
+---
+- name: Verify
+  hosts: all
+  become: no
+  gather_facts: no
+
+  tasks:
+    - name: check code version
+      ansible.builtin.command:
+        cmd: "code --version"

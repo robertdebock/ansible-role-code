@@ -1,0 +1,8 @@
+---
+#
+# Ansible managed
+#
+repository:
+  description: Install visual studio code on your system.
+  homepage: https://robertdebock.nl/
+  topics: code, ansible, molecule, tox, playbook, hacktoberfest
