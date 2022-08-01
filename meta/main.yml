@@ -1,8 +1,7 @@
 ---
 galaxy_info:
-  author: Robert de Bock
+  author: robertdebock
   role_name: code
-  namespace: robertdebock
   description: Install visual studio code on your system.
   license: Apache-2.0
   company: none
