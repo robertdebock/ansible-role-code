@@ -12,13 +12,11 @@
     - ansible_pkg_mgr in [ "yum", "dnf" ]
 
 - name: place apt repository
-  block:
-    - name: install repository
-      ansible.builtin.apt_repository:
-        repo: code https://packages.microsoft.com/repos/code stable main
+  ansible.builtin.apt_repository:
+    repo: "code https://packages.microsoft.com/repos/code stable main"
   when:
     - ansible_pkg_mgr in [ "apt" ]
 
 - name: install visual studio code
   ansible.builtin.package:
-    - name: code
+    name: code
