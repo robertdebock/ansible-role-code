@@ -13,7 +13,7 @@
 
 - name: place apt repository
   ansible.builtin.apt_repository:
-    repo: "code https://packages.microsoft.com/repos/code stable main"
+    repo: "deb https://packages.microsoft.com/repos/code stable main"
   when:
     - ansible_pkg_mgr in [ "apt" ]
 
