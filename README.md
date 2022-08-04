@@ -4,7 +4,7 @@ Install visual studio code on your system.
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![github](https://github.com/robertdebock/ansible-role-code/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-code/actions)|[![gitlab](https://gitlab.com/robertdebock/ansible-role-code/badges/master/pipeline.svg)](https://gitlab.com/robertdebock/ansible-role-code)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/robertdebock/code)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/robertdebock/code)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-code.svg)](https://github.com/robertdebock/ansible-role-code/releases/)|
+|[![github](https://github.com/robertdebock/ansible-role-code/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-code/actions)|[![gitlab](https://gitlab.com/robertdebock/ansible-role-code/badges/master/pipeline.svg)](https://gitlab.com/robertdebock/ansible-role-code)|[![quality](https://img.shields.io/ansible/quality/59877)](https://galaxy.ansible.com/robertdebock/code)|[![downloads](https://img.shields.io/ansible/role/d/59877)](https://galaxy.ansible.com/robertdebock/code)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-code.svg)](https://github.com/robertdebock/ansible-role-code/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
