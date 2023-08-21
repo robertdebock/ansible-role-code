@@ -8,3 +8,4 @@
     - name: Check code version
       ansible.builtin.command:
         cmd: "code --version --no-sandbox --user-data-dir=/tmp"
+      changed_when: no

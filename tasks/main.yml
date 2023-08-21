@@ -19,7 +19,7 @@
   when:
     - ansible_pkg_mgr in [ "apt" ]
   block:
-    - name: Trust microsoft.asc
+    - name: Trust apt key microsoft.asc
       ansible.builtin.apt_key:
         url: "https://packages.microsoft.com/keys/microsoft.asc"
 
