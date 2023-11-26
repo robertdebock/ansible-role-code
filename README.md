@@ -1,4 +1,4 @@
-# Ansible role [code](#code)
+# [Ansible role code](#code)
 
 Install visual studio code on your system.
 
