@@ -1,11 +1,11 @@
 ---
 - name: Verify
   hosts: all
-  become: no
-  gather_facts: no
+  become: false
+  gather_facts: false
 
   tasks:
     - name: Check code version
       ansible.builtin.command:
         cmd: "code --version --no-sandbox --user-data-dir=/tmp"
-      changed_when: no
+      changed_when: false
