@@ -3,3 +3,4 @@ roles:
   - name: robertdebock.bootstrap
   - name: robertdebock.ca_certificates
   - name: robertdebock.microsoft_repository_keys
+  - name: community.general
