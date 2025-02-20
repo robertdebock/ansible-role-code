@@ -11,6 +11,18 @@
   when:
     - ansible_pkg_mgr in [ "yum", "dnf" ]
 
+- name: Place zypper repository
+  ansible.builtin.zypper_repository:
+    name: code
+    description: Visual Studio Code
+    repo: "https://packages.microsoft.com/yumrepos/vscode"
+    auto_import_keys: true
+    enabled: true
+    autorefresh: true
+    runrefresh: true
+  when:
+    - ansible_pkg_mgr in [ "zypper" ]
+
 - name: Configure APT systems
   when:
     - ansible_pkg_mgr in [ "apt" ]
