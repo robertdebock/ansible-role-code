@@ -16,8 +16,10 @@
     - ansible_facts['pkg_mgr'] in [ "apt" ]
   block:
     - name: Trust apt key microsoft.asc
-      ansible.builtin.apt_key:
+      ansible.builtin.get_url:
         url: "https://packages.microsoft.com/keys/microsoft.asc"
+        dest: /etc/apt/trusted.gpg.d/code.asc
+        mode: "0644"
 
     - name: Place apt repository
       ansible.builtin.apt_repository:
